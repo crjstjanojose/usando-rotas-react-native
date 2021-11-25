@@ -4,11 +4,6 @@ import {Text, View} from 'react-native';
 import {RootStackParams} from '../navigator/StackNavigator';
 import {styles} from '../theme/appTheme';
 
-// interface RouteParams {
-//   id: number;
-//   nombre: string;
-// }
-
 interface Props extends StackScreenProps<RootStackParams, 'PersonaScreen'> {}
 
 export const PersonaScreen = ({route, navigation}: Props) => {
