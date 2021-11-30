@@ -24,7 +24,7 @@ export const PaginaUmScreen = ({navigation}: Props) => {
         onPress={() => navigation.navigate('PaginaDoisScreen')}
       />
 
-      <Text style={styles.titlePage}>Navegar com Argumento</Text>
+      <Text style={styles.titlePage}>Navegar com Argumentos</Text>
 
       <View style={{flexDirection: 'row'}}>
         <TouchableOpacity
@@ -36,7 +36,7 @@ export const PaginaUmScreen = ({navigation}: Props) => {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={{...styles.botaoNavegar, backgroundColor: '#FF9427'}}
+          style={{...styles.botaoNavegar, backgroundColor: '#f16e31'}}
           onPress={() =>
             navigation.navigate('PersonaScreen', {id: 2, nombre: 'Maria'})
           }>

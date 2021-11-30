@@ -8,6 +8,7 @@ const App = () => {
     <NavigationContainer>
       {/* <StackNavigator /> */}
       <MenuLateral />
+      {/* <Tabs /> */}
     </NavigationContainer>
   );
 };
